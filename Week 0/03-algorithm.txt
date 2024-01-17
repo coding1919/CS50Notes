@@ -1,0 +1,64 @@
+Abstractions - simplification of something so that you don't focus on the lower level implementation details you really just focus on the high level goals or the process itself 
+like in case of car we just focus on reaching from point A to B that is abstraction unlike we don't think about low level things that are like how card works and how it's engine actually works 
+
+blank box in middle of input and output that is abstarction is algorithm
+Input -> ALgorithm -> Output
+ 
+Algorithm - is a step by step instructions for solving the problem 
+
+implementation details
+
+Finding Luffy's contact in contact app 
+It is basically slow process to go step by step from A to Z 
+It actually works by going to the middle of the contact and if middle is M which divides it into 12 and 13 and L is in the left section so it makes the half of 12 that is 6 and checks whether L is in left or right and again does the same process by making it half
+first algorithm - n - it takes much time 
+second algorithm - n/2 - it takes less time than first
+third algorithm - log2n - it is very much faster - it is fundamentally different function and shape
+
+pseudocode:
+to translate verbally into actual code
+it will be like a english syntax
+used to solve the problem
+the steps:
+1. *pick up* the phone book
+2. *open to* the middle of the phone book
+3. *look at* page
+4. if person is on page
+5.      *call* person
+6. else if person is earlier in book
+7.       *open to* middle of left half of book
+8.      go back to line 3 //loops
+9. else if the person is later in book
+10.     *open to* middle of right half of book
+11.     go back to line 3 //loops
+12. else
+13.     *quit*
+
+when we code or program and we want the computer or program to do something for us like action or verb which is called as function
+
+else, else if, if - conditional - checking the consition based on it will be executed - its like this way or that way
+Boolean (Boole - Mathematician) Expressions - that way is selected based on this - True(1) or False(0)
+it governs which thing to execute whether code in if or else if or else
+indentation is required because the indented line will be executed if only answer above that is true
+loops - something that we want to do again and again
+if the person is in the phone book it will just loop through it and find
+if the person is not in the phone book it will just quit
+
+scratch.mit.edu
+two dimensional coordinate system
+x(240,0)
+y(0,180)
+-x(-240,0)
+-y(0,-180)
+
+drag and drop 
+from events when clicked
+from looks say hello
+the thing inside the white space is arguments or parameters
+
+event : is a generally something graphical or interactive that just happens in a computer program
+like click,tap,long press,drag - that are gestures and for that events do something based on our action
+
+input -> algorithm -> output
+hello -> say -> cat with hello
+argument -> function -> sideeffects

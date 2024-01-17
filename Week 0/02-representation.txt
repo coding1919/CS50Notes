@@ -1,0 +1,75 @@
+ Representation of alphabets -> 
+ it will use different transistors of 8 bits and glow or switch something like light to represent it
+
+ A - 65 - 01000001
+ B - 66
+ B - 67
+
+ASCII - American Standard Code Information Interchange
+
+mapping between letters,numbers electricity
+
+text message:
+01001000      01001001     00100001
+    72           73           33
+    H            I            !
+
+total it will 24 bits that is 8*3
+
+representation of numbers ->
+49 - 1 - 1 is stored as 49 in computer
+50 - 2
+51 - 3
+
+Excel - 0's and 1's of 72 73 33 cells in the spreadsheet with those three numbers
+Photoshop - 0's and 1's of 72 73 33 will be some color of rainbow
+
+ASCII uses 8 bits to represent letters which can be as many as 256 characters which is suitable for english but not suitable for other different languages and emojis
+
+solution is add another digit
+like using more bytes 2,3,4,8,16,32,64...so on bytes - which will be more expensive - so we have nowadays more memory space in computers and phones
+
+So the solution to ASCII is unicode
+Unicode - it is the mapping of letters and numbers but in many different languages
+this organization does - people of all different companies and culture and also countries is to capture all human languages in digitally form 
+
+32 bits - 4 billion possible permutations  of 0's and 1'similar
+
+11110000100111111001100010000010
+4036991106
+it is a smiling emoji of face with tears of joy
+
+for both Iphone and android it looks somewhat different  
+but we see them as images but actually it is character in unicodes
+like different companies use different fonts same way
+emoji's are drawings made by someone but they are actually a font 
+if some other sorts of broken emoji appears it is because we need to update to the latest version of android or ios
+at unicode they adds more different emoji time to time
+some emoji's are yellow in color as default and some have different design and purpose
+and there are different skin tones in the emoji too depends on the support from the company and unicode
+
+How they use this five different skin tones of emoji?
+the first byte that we receive via text or email just represent like the structure of the emoji, the default yellow version thereof. But if it's immediately followed by a certain pattern of bits that these humans standardize to represent each of these different shades of skin tones then the phone, the mac,the pc will change that default color yellow in most cases to whatever the more apt human tone is. So you just use twice of many bits, but you don't use five times as many bits. Means we don't have five completely distinct patterns, per se. For each of these possible variants, you have representation of just the emoji itself structurally, and then reusable patterns for those five skin tones
+Unfortunately that wasn't quite versatile enough for other features that were in the pipeline and nowadays too, and there's a double meaning now to representation. Emoji's intended to focus on certain professions, and early on too, were certain professions associated with certain genders and vice versa and you couldn't necessarily be one gender or another in certain profession or another there was these combinatorics that just weren't possible. 
+But nowadays, as you might have seen, you can have couples in love for instances that actually look little more like three emojis, but just kind of combined into one. And indeed, this is just one key press on your phone, and you can combine different emoji on the left and then the right and with the emoji in the middle and it turns out how computers nowadays represent these patterns are one set of bits for the character on the left, one set of bit for a character on the right, one set of bit for whatever emoji you want in the middle. and then you assemble more complicated compositions of emoji by just reusing those same patterns and bits and bits. The unicode folks don't have to come up with a whole new representations for some very specific incarnation. They can create one for person, for male, for female, for other characters that you might want to display and reuse those same patterns of 0's and 1's. 
+
+Everything is getting evolved from ASCII to unicode and many
+languages are also evolving
+programming languages are also evolving like versions
+
+How image is represented in computers?
+RGB - (Some amount of Red Green Blue)
+Every dot on the device as a number which represent how much red that dot should show and how much green and Blue
+72 73 33 - medium amount of red and medium amount of green and little amount of blue
+which shows the murky shade of yellow and brown color
+if we zoom in the images there will be pixels that is dots which blend together
+if we claim each dot as 3 bytes(24 bits) when it gets dark the dots gets stand out which is different different RGB for different different dots
+
+Videos - pixels are changing values over time in case of videos or sequence of images that changes over time on the screen
+like movie it is 24 FPS Frames per second - which means 24 images we see per second
+And in case of TV it is 30 FPS 
+That is our mind thinks it has a smooth moments of that images which we think as a videos
+
+Music - Hertz Values that is frequency that is hitting to our hears - making a sequence of values and smooth moment of frequency it makes us think that in real world it is continous and not discrete
+
+Humans have standardized how we represent input and outputs

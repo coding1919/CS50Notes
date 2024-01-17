@@ -1,0 +1,108 @@
+Computer Science -
+study of information
+how do you represent it and how do you actually process it?
+based on computational thinking it is just application of ideas from CS to problems of interest
+
+Problem Solving -
+input -> code -> output
+
+Representation - 
+
+Unary - 
+its like representing the 1,2,3,4,5,6,7,8,9,10 using fingers
+unary is a very simple system of using a single symbol to just solve the problem
+
+base 1 - one digit
+
+Binary:
+whereas the computer uses the system of binary 
+bi - two digits
+Binary digit is the origin of the bit - like bi from first two letter of word binary and t from the last letter of digit
+bit - 0 and 1
+whereas humans use in talks and thinks in terms of decimal that is 0 to 9
+
+how does computers use this binary?
+suppose think of a bulb, so 0 as the bulb off and 1 as the bulb on
+in case of the devices there are tiny tiny switches or can be considered as bulb too that is transistors which can flipped on to represent 1 and flipped off to represent 0 also like electricity is available (1 or high) or not (0 or low)
+if one bulb - it will only be 1 and 0
+if more bulbs there will be more values
+
+suppose if we consider three bulbs
+and this as off (/) and this as on (%) 
+it will be not like 
+% / / - 1
+% % / - 2
+% % % - 1
+
+the computer will make it in more smarter way like
+/ / / - 0
+% / / - 1
+/ % / - 2
+% % / - 3
+/ / % - 4
+% / % - 5
+/ % % - 6
+% % % - 7f
+
+in case of 15
+8 4 2 1
+0 0 0 0 - 0
+0 0 0 1 - 1
+0 0 2 0 - 2
+0 0 2 1 - 3
+0 4 0 0 - 4
+0 4 0 1 - 5
+0 4 2 0 - 6
+0 4 2 1 - 7
+8 0 0 0 - 8
+8 0 0 1 - 9
+8 0 2 0 - 10
+8 0 2 1 - 11
+8 4 0 0 - 12
+8 4 0 1 - 13
+8 4 2 0 - 14
+8 4 2 1 - 15
+
+
+123 -         1        2        3
+           hundreds   tens    ones
+           100 x 1   10 x 2   1 x 3 
+             100       20       3
+             10^2     10^1    10^0
+
+
+base 2 a.k.a binary - similar to decimal a.k.a
+
+because computers have two values on and off that is 0 and 1
+so its base is 2
+
+         2^3     2^2     2^1     2^0
+          8       4       2       1
+for 0 -  8x0     4x0     2x0     1x0
+for 1 -  8x0     4x0     2x0     1x1
+for 2 -  8x0     4x0     2x1     1x0
+for 3 -  8x0     4x0     2x1     1x1
+for 4 -  8x0     4x1     2x0     1x0
+for 5 -  8x0     4x1     2x0     1x1
+for 6 -  8x0     4x1     2x1     1x0
+for 7 -  8x0     4x1     2x1     1x1
+for 8 -  8x1     4x0     2x0     1x0
+
+for 8 we get a carry 1 in case of 3 bit so we use another bit to use that 8
+
+byte :
+more useful unit of measure
+8 bits = 1 byte - octet 
+
+in case of files we have
+kilobytes - for thousands of bytes
+megabytes - for millions of bytes
+gigabytes - for billions of bytes
+these are the patterns of 8 bits
+
+8 bits as 0 - 00000000 - 0
+8 bits as 1 - 11111111 - 255
+
+how we calculate this 255 is like this: 1 + 2 + 4 + 8 + 16 + 32 + 64 + 128 = 255 
+
+it ignores how we represent negative numbers
