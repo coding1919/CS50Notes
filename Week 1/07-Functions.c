@@ -20,7 +20,8 @@ void meow(void); // now this can be used above the main code and defining maybe 
 
 // using inputs or arguments
 
-void meow(int n){
+void meow1(int n);
+void meow1(int n){
     for (int i = 0; i < n; i++)
     {
         printf("meow\n");
@@ -28,6 +29,8 @@ void meow(int n){
 }
 
 int main(void){
-    meow(3);
+    meow1(3);
 }
+
+
 
