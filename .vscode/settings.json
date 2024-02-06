@@ -1,5 +1,7 @@
 {
     "files.associations": {
-        "14-Y2K.C": "cpp"
+        "14-Y2K.C": "cpp",
+        "stdio.h": "c",
+        "string.h": "c"
     }
 }
